@@ -1,0 +1,61 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1;  /* Light pink background */
+    color: #ff69b4;  /* Hot pink text */
+}
+
+header {
+    background-color: #ff1493;  /* Deep pink */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #ff69b4;  /* Hot pink border */
+}
+
+nav {
+    background-color: #ff69b4;  /* Hot pink */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #ff69b4;  /* Hot pink border */
+}
+
+.product-image {
+    width: 300px;  /* Medium size */
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff1493;  /* Deep pink */
+    color: #fff;
+    border-top: 5px solid #ff69b4;  /* Hot pink border */
+}
